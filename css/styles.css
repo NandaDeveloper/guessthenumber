@@ -132,3 +132,21 @@ p {
     }
     
 }
+
+@media (max-width: 400px) {
+
+    .card {
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 758px;
+        min-height: 410px;
+        background: #fff3f3;
+        box-shadow: 0 20px 50px rgb(0 0 0 / 10%);
+        border-radius: 38px;
+        transition: 0.5s;
+        height: 350px;
+        width: 350px;
+    }
+   

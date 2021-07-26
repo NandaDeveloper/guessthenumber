@@ -114,7 +114,7 @@ p {
     
 }
 
-@media (max-width: 510px) {
+@media (max-width: 520px) {
 
     .card {
         position: absolute;

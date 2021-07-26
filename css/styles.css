@@ -1,0 +1,134 @@
+.background {
+    /* background-image: linear-gradient(to top,#ff0505,#ff0505,#ff8f1f); */
+    background-color: red;
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+.card {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 758px;
+    min-height: 410px;
+    background: #fff3f3;
+    box-shadow: 0 20px 50px rgb(0 0 0 / 10%);
+    border-radius: 38px;
+    transition: 0.5s;
+    height: 563px;
+}
+p {
+    margin-top: 19px !important;
+}
+.card:hover {
+    box-shadow:0 30px 70px rgba(0,0,0,.2);
+}
+.card .box {
+    position:absolute;
+    top:50%;
+    left:0;
+    transform:translateY(-50%);
+    text-align:center;
+    padding:20px;
+    box-sizing:border-box;
+    width:100%;
+}
+.card .box .img {
+    width:120px;
+    height:120px;
+    margin:0 auto;
+    border-radius:50%;
+    overflow:hidden;
+}
+.card .box .img img {
+    width:100%;
+    height:100%;
+}
+.card .box h2 {
+    font-size:20px;
+    color:red;
+    margin:20px auto;
+}
+.startGuessing {
+    padding-left: 15px;
+    text-align: center;
+    font-size: 50px !important;
+}
+
+.btn-danger {
+    margin-bottom: 10px !important;
+}
+
+.card .box p {
+    color:#262626;
+}
+.card .box span {
+    display:inline-flex;
+}
+.card .box ul {
+    margin:0;
+    padding:0;
+}
+.card .box ul li {
+    list-style:none;
+    float:left;
+}
+.card .box ul li a {
+    display:block;
+    color:#aaa;
+    margin:0 10px;
+    font-size:20px;
+    transition:0.5s;
+    text-align:center;
+}
+.card .box ul li:hover a {
+    color:#e91e63;
+    transform:rotateY(360deg);
+}
+
+.again {
+    margin-top: 10px !important;
+}
+
+.guess {
+    border-color: black !important;
+}
+
+@media (max-width: 770px) {
+
+    .card {
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 758px;
+        min-height: 410px;
+        background: #fff3f3;
+        box-shadow: 0 20px 50px rgb(0 0 0 / 10%);
+        border-radius: 38px;
+        transition: 0.5s;
+        height: 500px;
+        width: 500px;
+    }
+    
+}
+
+@media (max-width: 510px) {
+
+    .card {
+        position: absolute;
+        top: 54%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 758px;
+        min-height: 410px;
+        background: #fff3f3;
+        box-shadow: 0 20px 50px rgb(0 0 0 / 10%);
+        border-radius: 38px;
+        transition: 0.5s;
+        height: 490px;
+        width: 490px;
+    }
+    
+}

@@ -54,8 +54,6 @@ document.querySelector(".again").addEventListener("click", function() {
 
     score = 20;
     document.querySelector(".score").textContent = score; 
-    highScore = 0;
-    document.querySelector(".highscore").textContent = highScore; 
     document.querySelector(".message").textContent = " ✨ Start guessing...";
 
     randomNum = Math.floor(Math.random() * 20) + 1;
